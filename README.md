@@ -11,6 +11,8 @@
 
 
 # Resources to learn d3.js
-###### http://alignedleft.com/tutorials
-###### https://github.com/mbostock/d3/wiki/Tutorials
-###### http://chimera.labs.oreilly.com/books/1230000000345/index.html
+###### [Basic d3.js tutorials by Scott Murray](http://alignedleft.com/tutorials)
+###### [Tutorials by Mike Bostock](https://github.com/mbostock/d3/wiki/Tutorials)
+###### [Interactive Data Visualization for the Web:The complete Ebook ](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+###### [Workshop presentation by Mike Bostock](bost.ocks.org/mike/d3/workshop/)
+ 
