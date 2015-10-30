@@ -9,6 +9,8 @@
 
 ######  View the skillshare file in your browser
 
+###### The slides can be viewed at: http://kaul10.github.io/skillshare
+
 
 # Resources to learn d3.js
 ###### [Basic d3.js tutorials by Scott Murray](http://alignedleft.com/tutorials)
