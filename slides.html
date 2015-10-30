@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style type="text/css">
+      body {
+        font-family: helvetica; color: #959595;
+      }
+      a:link,a:visited,a:hover {text-decoration: none;}
+      .wrapper {
+        max-width: 720px; margin: 0 auto;
+        padding: 0 20px;
+      }
+      .intro {
+        text-align: center; margin-bottom: 36px;
+      }
+      .intro img {width: 100%;}
+
+      h1 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h3 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h5 {margin: 0; color: #144A6B;}
+      h2{text-align: center;}
+      .project {margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid #ddd;}
+      .project h2 {text-decoration: none; color: #217CB5;}
+      .images {
+        display: block;
+      }
+      .images .image { float: left;}
+      .image img {width: 100%; outline: 1px solid #ddd; height: 100%;}
+      .images .big {width: 100%; padding: 1%; height: 600px;}
+      .images .small {width: 23%; padding: 1%; height: 141px;}
+    
+      .project:hover h2 {color: #144A6B;}
+      .project:hover .image img {outline-color: #217CB5;}
+      .desc li {
+        margin-bottom: 12px; line-height: 1.3em;
+      }
+      #parent {
+        margin-bottom: 400px;
+        margin-top: 100px;
+      }
+
+      #parent #smallchild {
+        margin-bottom: 300px;
+        margin-top: 300px; 
+      }
+   </style>
+
+
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/d3.v3.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+    <div class="intro">
+      <a class="images" href="http://d3js.org/">
+        <div id="parent">
+          <h1>Introduction to Data Visualization using D3</h1>
+          <img src="d3image.png" height="400px">
+        </div>
+      </a>
+    </div>
+
+
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Anscombe's Quartet</h1>
+          <img src="Anscombeq.png">
+          <p>[Wikipedia]</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Summary Statistics of Anscombe's Quartet</h1>
+          <img src="Anscombestats.png">
+          <p>[Wikipedia]</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Anscombe's Quartet Visualized</h1>
+          <img src="Anscombeimage.png">
+          <p>[Wikipedia]</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Napolean's March</h1>
+          <img src="minard.jpg">
+          <p>[Charles Minard]</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Cholera Outbreak in London</h1>
+          <img src="cholera.png" height="500px">
+          <p>[John Snow]</p>
+        </div>
+      </a>
+    </div>
+
+
+
+  
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <div id="smallchild">
+            <a href="http://thedoublethink.com/2009/08/tufte%E2%80%99s-principles-for-visualizing-quantitative-information/">
+            <h1>Graphical Integrity</h1>
+            <h1>Small Multiples</h1>
+            <h1>Data-Ink Ratio</h1>
+            <h1>Data Density</h1>
+            <h1>Chartjunk</h1>
+            </a>
+            <p>[Tufte]</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+
+
+      
+      <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Graphical Integrity</h1>
+          <img src="graphicalintegrity.png">
+          <p>[New York Times]</p>
+        </div>
+      </a>
+    </div>
+
+
+
+        
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Small Multiples</h1>
+          <img src="smallmultiples.png">
+          <p>[New York Times]</p>
+        </div>
+      </a>
+    </div>
+
+
+
+        
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Data-Ink Ratio</h1>
+          <img src="dataink.png">
+          <p>[Tufte]</p>
+        </div>
+      </a>
+    </div>
+
+
+
+        
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Data Density</h1>
+          <img src="datadensity.png">
+          <p>[New York Times]</p>
+        </div>
+      </a>
+    </div>
+
+
+
+        
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <h1>Chartjunk</h1>
+          <img src="chartjunk.png">
+          <p>[Eagereyes]</p>
+        </div>
+      </a>
+    </div>
+
+
+    
+    <div class="intro">
+      <a class="images">
+        <div id="parent">
+          <div id="smallchild">
+            <a href="http://d3.artzub.com/wbca/">
+            <h1>Now, let's make this!</h1>
+            </a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  
+  </div><!--wrapper-->
+
+
+
+
+</div>
+</li>
+</body>
+
+</html>
