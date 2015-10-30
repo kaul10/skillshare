@@ -1,5 +1,5 @@
 # Instructions
-###### Please download the file titled "skillshare.html" in this respository
+###### Please download the file titled [start.html](https://github.com/gandhiuw/skillshare/blob/master/start.html) in this respository
 
 ###### Place the file on your desktop 
 
