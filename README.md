@@ -3,7 +3,7 @@
 
 ###### Place the file on your desktop 
 
-###### Download the d3.js file from https://github.com/mbostock/d3 (The minified version will do)
+###### Download the d3.js file from [this link](https://github.com/mbostock/d3/releases/download/v3.5.6/d3.zip) (The minified version will do)
 
 ###### Place this file in the same folder as the skillshare.html file.
 
